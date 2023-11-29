@@ -1,6 +1,6 @@
 import React from "react";
 
-const Eventitem = ({
+const EventItem = ({
   eventName,
   eventDate,
   isCompleted,
@@ -28,4 +28,4 @@ const Eventitem = ({
   );
 };
 
-export default Eventitem;
+export default EventItem;

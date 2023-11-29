@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../main";
-import Eventitem from "./Eventitem.jsx";
+import Eventitem from "./EventItem.jsx";
 import toast from "react-hot-toast";
 
 const EventList = () => {
