@@ -1,0 +1,43 @@
+.eventItems {
+  background-color: #dadada;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .name {
+    margin-left: 10px;
+  }
+  .handler {
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    > input {
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      outline: none;
+      border: 2px solid rgb(214, 144, 53);
+      border-radius: 5px;
+      color: rgb(214, 144, 53);
+      background-color: white;
+      transition: background-color 0.3s, color 0.3s;
+      &:hover {
+        background-color: rgb(214, 144, 53);
+        color: white;
+      }
+    }
+  }
+}
