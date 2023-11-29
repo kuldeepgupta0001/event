@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Context } from "../main";
+import { Context } from "../main.jsx";
 import toast from "react-hot-toast";
 
 const EventForm = () => {
